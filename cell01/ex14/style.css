@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 100px;
+    line-height: 0.001;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
