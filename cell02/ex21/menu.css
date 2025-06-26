@@ -1,0 +1,61 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(https://th.bing.com/th/id/R.636f0c9756878c3d355be2e64903d9a7?rik=NvryHj1ezfx6pA&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+   font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(100, 0, 5);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:beige;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active, .menu-bar ul li a li:hover
+{
+    background:#480808 ;
+    border-radius: 3px;
+}
+.dropdown-menu {
+    display: none;
+}
+.menu-bar ul li:hover .dropdown-menu
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:100%;
+    background-color:#470505;
+}
+.dropdown-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.dropdown-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+}
