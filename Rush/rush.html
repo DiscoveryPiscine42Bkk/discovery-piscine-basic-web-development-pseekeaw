@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio design</title>
+    <!--Linking Font Awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="rush.css">
+</head>
+
+<body>
+    <!--Header / Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Portfolio</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#profile" class="nav-link">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiences" class="nav-link">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">WELCOME</h2>
+                    <h3 class="subtitle">Hello, welcome to our website.
+                        You can get to know us through this website. Nice to meet you!</h3>
+
+
+                    <div class="buttons">
+                        <a href="#profile" class="button View">View</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about-section" id="profile">
+            <div class="section-content profile-flex">
+                <div class="profile-flex">
+                    <!-- คนที่ 1 -->
+                    <div class="profile-box">
+                        <img src="https://i.pinimg.com/736x/bc/6c/de/bc6cdef6e28f5099500545d0707026f5.jpg"
+                            alt="Pseekeaw" class="about-image">
+                        <h2 class="section-title">Pseekeaw</h2>
+                        <p class="text">Student of King Mongkut's Institute of Technology Ladkrabang</p>
+                        <div class="social-link-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- คนที่ 2 -->
+                    <div class="profile-box">
+                        <img src="https://i.pinimg.com/736x/bc/6c/de/bc6cdef6e28f5099500545d0707026f5.jpg" alt="Another"
+                            class="about-image">
+                        <h2 class="section-title">Nkangkae</h2>
+                        <p class="text">Student of King Mongkut's Institute of Technology Ladkrabang</p>
+                        <div class="social-link-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Menu section-->
+        <section class="menu-section" id="experiences">
+            <div class="section-content">
+                <h2 class="section-title">Experiences</h2>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuBr3DWYyE67wpNYY3LWqEcst4XaPLxSsshQ&usqp=CAU"
+                            alt="Teamwork" class="menu-image">
+                        <h3 class="name">Team Collaboration</h3>
+                        <p class="text">
+                            Productive team player, problem solver, able to handle multiple tasks simultaneously and
+                            adapt to flexible schedules.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcZP4MXF3D8-pZo3Spq8jVDaSEvwoCAgRPwwvY5YBAYuB-TpCG"
+                            alt="Skills" class="menu-image">
+                        <h3 class="name">Professional Skills</h3>
+                        <p class="text">
+                            Strong analytical skills, fast learner, hard-working, positive attitude, open-minded, and a
+                            team player.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="section-content contact-flex">
+    
+    <!-- ซ้าย: ข้อมูลติดต่อ -->
+    <div class="contact-info">
+      <ul class="content-info-list">
+        <li><i class="fa-solid fa-envelope"></i> Email: 67100343@kmitl.ac.th</li>
+        <li><i class="fa-solid fa-phone"></i> Tel: 0971610971</li>
+      </ul>
+    </div>
+
+    <!-- ขวา: ฟอร์มส่งข้อความ -->
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="button">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+    </main>
+    <script src="rush.js"></script>
+</body>
+
+</html>
